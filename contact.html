@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Styles */
+        body {
+            background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .about-container {
+            max-width: 800px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .title {
+            font-size: 2.8em;
+            background: linear-gradient(90deg, #ff3cac, #562b7c, #2b86c5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        .subtitle {
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .text {
+            text-align: left;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .linkedin { background: #0077b5; color: white; }
+        .github { background: #333; color: white; }
+        .twitter { background: #1da1f2; color: white; }
+
+        .social-btn:hover {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+
+        .image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 4px solid #fff;
+        }
+
+        @keyframes fadeInDown {
+            0% { opacity: 0; transform: translateY(-30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="about">
+        <div class="about-container">
+            <h1 class="title">About Me</h1>
+            <p class="subtitle">Web Developer | UI/UX Designer | Tech Enthusiast</p>
+            <div class="content">
+                <div class="text">
+                    <p>Hi! I'm <strong>Rajath Kumar V Dhage</strong>, an MCA student passionate about web development, UI/UX design, and creating interactive applications. I specialize in HTML, CSS, JavaScript, Python, and modern frameworks to build high-quality, user-friendly websites.</p>
+                    <p>My goal is to innovate and design digital experiences that are both beautiful and functional.</p>
+                    <p>📍 Location: [Davangere, India] <br>📧 Email: rajathkumar807@gmail.com <br>📞 Phone: +91 7892793765</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rajath-kumar-v-dhage-62169834b/" class="social-btn linkedin">LinkedIn</a>
+                        <a href="https://github.com/Rajath807/Rajath-Kumar-V-Dhage" class="social-btn github">GitHub</a>
+                        
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="download (1).jpg" alt="Your Name">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
